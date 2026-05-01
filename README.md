@@ -2,7 +2,7 @@
 
 🚀 Full Stack Python Developer  
 
-🔗 Live: https://yourusername.github.io/portfolio  
+🔗 Live: https://benevolent-nasturtium-79254d.netlify.app/
 
 ## 📌 About
 This is my personal portfolio showcasing my skills, projects, and experience in web development.
