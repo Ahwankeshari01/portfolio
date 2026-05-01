@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahwan Keshari Jena – Full Stack Python Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-brand">
+    <div class="nav-logo">AKJ<span class="dot">.</span></div>
+    <span class="nav-tag">Full Stack Python</span>
+  </div>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#home" class="nav-link">Home</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon">🌙</span>
+    </button>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main>
+  <section id="home" class="hero-section">
+    <div class="container hero-panel">
+      <div class="hero-copy fade-up">
+        <span class="eyebrow">Full Stack Python Developer</span>
+        <h1>Hi, I’m <span class="accent">Ahwan Keshari</span> Jena</h1>
+        <p class="hero-lead">Building polished APIs, scalable backends and real-time experiences for modern teams.</p>
+        <p class="hero-type">I build <span id="typed-text"></span></p>
+        <div class="hero-actions">
+          <a href="resume.pdf" class="btn btn-primary" download><span>Resume</span></a>
+          <a href="#projects" class="btn btn-ghost"><span>See Projects</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual fade-up">
+        <div class="glass-card">
+          <div class="visual-header">
+            <div>
+              <span class="card-label">System preview</span>
+              <h2>Live pipeline snapshot</h2>
+            </div>
+            <span class="status-chip">Available</span>
+          </div>
+          <div class="visual-body">
+            <div class="visual-top">
+              <div class="badge">Python</div>
+              <div class="badge accent">Django</div>
+              <div class="badge">API</div>
+            </div>
+            <div class="preview-panel">
+              <div class="preview-wave"></div>
+              <div class="preview-metrics">
+                <div><strong>99%</strong><span>Uptime</span></div>
+                <div><strong>12ms</strong><span>Latency</span></div>
+                <div><strong>4.8/5</strong><span>Reliability</span></div>
+              </div>
+            </div>
+            <div class="visual-stats">
+              <div class="stat-pill"><span>Backend</span><strong>92%</strong></div>
+              <div class="stat-pill"><span>Realtime</span><strong>85%</strong></div>
+              <div class="stat-pill"><span>Frontend</span><strong>80%</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-deco deco-1"></div>
+    <div class="hero-deco deco-2"></div>
+    <div class="hero-deco deco-3"></div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-intro fade-up">
+        <span class="section-label">// About</span>
+        <h2 class="section-title">A backend-first engineer with full stack fluency.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy fade-up">
+          <p>I design reliable backend systems and API platforms with Python, Django, and real-time architecture that scales.</p>
+          <p>My work blends production-grade server design with polished interfaces, strong documentation, and cloud deployment confidence.</p>
+          <p>Recent projects include Redis caching, multi-database architecture, and live delivery systems for modern product teams.</p>
+          <div class="about-tags">
+            <span>Backend-first</span>
+            <span>API Architecture</span>
+            <span>Real-time Systems</span>
+            <span>Cloud Deployment</span>
+          </div>
+        </div>
+        <div class="about-stats fade-up">
+          <div class="stat-card">
+            <span class="stat-number">Backend</span>
+            <p>REST APIs, Django, Redis, performance tuning.</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">Realtime</span>
+            <p>WebSockets, live updates, chat, notification flows.</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">Data</span>
+            <p>MySQL, PostgreSQL, MongoDB, data modeling.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="section-intro fade-up">
+        <span class="section-label">// Skills</span>
+        <h2 class="section-title">Tech categories I ship with.</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card fade-up">
+          <div class="skill-card-top"><span class="skill-icon">🐍</span><h3>Backend</h3></div>
+          <p>Engineered APIs, authentication, and business logic using Python and Django.</p>
+          <div class="skill-meter"><span class="skill-meter-fill" style="width:92%"></span></div>
+          <div class="skill-tags">Django • REST • Redis</div>
+        </article>
+        <article class="skill-card fade-up">
+          <div class="skill-card-top"><span class="skill-icon">⚡</span><h3>Realtime</h3></div>
+          <p>Live update flows, WebSockets and push experiences that feel instant and responsive.</p>
+          <div class="skill-meter"><span class="skill-meter-fill accent2" style="width:85%"></span></div>
+          <div class="skill-tags">WebSockets • Channels • Notifications</div>
+        </article>
+        <article class="skill-card fade-up">
+          <div class="skill-card-top"><span class="skill-icon">🗄️</span><h3>Data</h3></div>
+          <p>Data modeling, storage strategy and query optimization for relational and document systems.</p>
+          <div class="skill-meter"><span class="skill-meter-fill" style="width:88%"></span></div>
+          <div class="skill-tags">PostgreSQL • MongoDB • SQL</div>
+        </article>
+        <article class="skill-card fade-up">
+          <div class="skill-card-top"><span class="skill-icon">☁️</span><h3>Cloud</h3></div>
+          <p>Deployment pipelines, infrastructure tuning, and maintenance on AWS and Render.</p>
+          <div class="skill-meter"><span class="skill-meter-fill accent3" style="width:82%"></span></div>
+          <div class="skill-tags">AWS • CI/CD • Hosting</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-intro fade-up">
+        <span class="section-label">// Projects</span>
+        <h2 class="section-title">Interactive systems and real-world apps.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card fade-up">
+          <div class="project-preview preview-chat"></div>
+          <div class="project-content">
+            <span class="project-category">Realtime App</span>
+            <h3>QuickTalk Chat</h3>
+            <p>A low-latency chat experience built with Django, WebSockets, and Redis for real-time messaging.</p>
+            <div class="project-links">
+              <a href="https://github.com/Ahwankeshari01/quicktalk-chat-" target="_blank" class="btn btn-outline">GitHub</a>
+              <a href="https://live-quicktalk.onrender.com" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card fade-up">
+          <div class="project-preview preview-ui"></div>
+          <div class="project-content">
+            <span class="project-category">UI System</span>
+            <h3>Component Library</h3>
+            <p>A polished UI library with reusable components, responsive patterns, and interaction-ready layouts for modern applications.</p>
+            <div class="project-links">
+              <a href="https://github.com/Ahwankeshari01/UI-Components-Development" target="_blank" class="btn btn-outline">GitHub</a>
+              <a href="#" class="btn btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card project-more fade-up">
+          <div class="project-content">
+            <span class="project-category">More Coming</span>
+            <h3>Additional work in progress</h3>
+            <p>More production-ready systems and dashboards will land here soon. Explore my GitHub for the latest updates.</p>
+            <div class="project-links">
+              <a href="https://github.com/Ahwankeshari01" target="_blank" class="btn btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-intro fade-up">
+        <span class="section-label">// Contact</span>
+        <h2 class="section-title">Ready to build your next product?</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-panel fade-up">
+          <p class="contact-copy">I’m available for remote and contract work. Send a message if you need backend architecture, API systems, or data-driven tooling.</p>
+          <div class="contact-meta">
+            <div>
+              <span>Email</span>
+              <a href="mailto:ahwankeshari@gmail.com">ahwankeshari@gmail.com</a>
+            </div>
+            <div>
+              <span>Location</span>
+              <p>Odisha, India</p>
+            </div>
+            <div>
+              <span>Connect</span>
+              <div class="social-links">
+                <a href="https://github.com/Ahwankeshari01" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/ahwan-keshari-jena-0191a3243/" target="_blank">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form fade-up" id="contact-form" data-endpoint="https://formspree.io/f/yourFormId">
+          <div class="form-group"><input type="text" id="name" placeholder="Your Name" required /></div>
+          <div class="form-group"><input type="email" id="email" placeholder="Your Email" required /></div>
+          <div class="form-group"><textarea id="message" placeholder="Your Message" rows="5" required></textarea></div>
+          <button type="submit" class="btn btn-primary full-width">Send Message</button>
+          <div id="form-status" class="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>Designed & built with premium glassmorphism.</span>
+    <span>© 2026 Ahwan Keshari Jena</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
